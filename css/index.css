@@ -29,12 +29,12 @@ h2 {
     font-size: 6vw;
     color: #ff48c4;
     display: block;
-    margin: 0px auto 0px 7vw;
+    margin: 0px auto 0px 7.3vw;
 }
 
 .textblock {
     font-family: 'Cabin', sans-serif;
-    font-size: 1em;
+    font-size: 1.07em;
     color: #000000;
 
 }
@@ -42,7 +42,7 @@ h2 {
 ul {
     margin-left: 2%;
     font-family: 'Cabin', sans-serif;
-    font-size: 1em;
+    font-size: 1.2em;
     color: #000000;
 
 }
