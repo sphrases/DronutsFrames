@@ -1,10 +1,54 @@
 <html>
 <head>
+    <title>:)</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./_files/favicon.ico">
+    <!-- css -->
+    <link rel="stylesheet" href="_css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo|Cabin|Permanent+Marker" rel="stylesheet">
 
-
+    <!-- js -->
+    <script src="./_js/index.js"></script>
 </head>
-<body>
-<h1>hello world</h1>
+<body onload="loadContentScript()">
+<div id="centerContent" >
+    <p class="heading">Dronuts Frames</p>
 
-</body>
+    </br>
+
+    <span class="textblock">I started to design some quadcopter frames. Here they are:</span>
+    </br>
+
+
+    <div id="frame1" class="post">
+        <h2>Babyhawk Frame</h2>
+        <p class="textblock">I designed a new frame for the emax babyhawk, due to its heavy vibrations and general lack
+            of stability.
+            <a href="./frames/babyhawk.html">read more>></a>
+        </p>
+    </div>
+
+    <div id="frame2" class="post">
+        <h2>Dummy Frame</h2>
+        <p class="textblock">I designed a new frame for the emax babyhawk, due to its heavy vibrations and general lack
+            of stability.
+            <a href="">read more>></a></p>
+    </div>
+
+
+
+</div>
+
+<button id="showNavBar" onClick="toggleNavBar()">Toggle Nav Bar</button>
+
+<div id="navBar">
+    </br>
+    </br>
+    </br>
+    </br>
+    <h1 id="navParent" class="navBarElement">Navigation:</h1>
+</div>
+
+
+
+</body >
 </html>
