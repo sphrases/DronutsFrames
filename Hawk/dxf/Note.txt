@@ -1,5 +1,0 @@
-BossBBYHawk:
-- Schmalerer Frame (ca 20mm)
-- schmalere Arme (um den Motor ca 16mm, Rest ca 14mm)
-- Standoffs näher beieinander (ca 22mm x 45mm)
-- Winkel der Arme mehr als 45°
