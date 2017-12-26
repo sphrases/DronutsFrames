@@ -2,7 +2,7 @@
  * Created by sphra on 22.12.2017.
  */
 
-var navBarVisible = true;
+var navBarVisible = false;
 function toggleNavBar() {
     if(navBarVisible) {
         hideNavBar();

@@ -68,7 +68,7 @@ ul {
 #navBar {
     z-index: 5;
     position: fixed;
-    display: inherit;
+    display: none;
     width: 14vw;
     top: 0;
     left: 0;
