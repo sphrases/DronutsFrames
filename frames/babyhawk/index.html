@@ -3,13 +3,14 @@
     <title>:)</title>
     <link rel="shortcut icon" type="image/x-icon" href="../../files/favicon.ico">
     <!-- css -->
-    <link rel="stylesheet" href="../../css/index.css">
+    <link rel="stylesheet" href="./babyhawkCSS.css">
     <link href="https://fonts.googleapis.com/css?family=Arvo|Cabin|Permanent+Marker" rel="stylesheet">
 
     <!-- js -->
-    <script src="../../js/index.js"></script>
+
+
 </head>
-<body onload="loadContentScript()">
+<body>
 <div id="centerContent">
     <p class="heading">Dronuts Frames</p>
 
@@ -17,21 +18,39 @@
 
         <h2>Babyhawk Frame</h2>
         <br>
-        <h2>THIS IS A PROTOTYPE, THIS IS NOT EVEN A BETA VERSION. I DID NOT TEST THIS YET!!!</h2>
-
+        <h2>THIS IS A PROTOTYPE, THIS IS NOT EVEN A BETA VERSION.</h2>
         <br>
-        <p class="textblock">
-            I designed a new frame for the emax babyhawk, due to its heavy vibrations and general lack
-            of stability. <br>
-            Any kind of feedback or even adaptations of the frame (github, yay) is much appreciated. <br>
-            Pictures and a little video of him in action will follow soon.<br>
-            <br>
-            The frame is designed to be cut out of 1-2mm carbon or glass fibre plastic.<br>
-            Personally, I would recommend 2mm for the base plate and 1mm for the two top plates.<br>
-            <br>
-            The assembly should be *really* easy, you shouldn't need a tutorial.<br>
-            <br>
-        </p>
+        <!-- Slideshow -->
+        <div id="slideShow">
+            <img class="mySlides" src="../../files/babyhawk photos/Hawk Full.JPG">
+            <img class="mySlides" src="../../files/babyhawk photos/Frame Full.JPG">
+            <img class="mySlides" src="../../files/babyhawk photos/Hawk Frameonly.JPG"/>
+            <img class="mySlides" src="../../files/babyhawk photos/parts.JPG"/>
+        </div>
+        <!-- End Slideshow -->
+        <br>
+        <p class="textblock"><b>Specs:</b></p>
+        <ul>
+            <li>2mm Bottom Plate</li>
+            <li>1mm top plates</li>
+            <li>63g weight (0.9g less then the standard hawk)</li>
+            <li>no more vibrations!!!</li>
+            <li>11/10 awesomeness</li>
+        </ul>
+        <br>
+        <div class="post">
+            <p class="textblock">
+                <b>Update 31.12.17:</b>
+                I built the hawk for the first time. Many things need to change.<br>
+                - The second top plate prevents access to the usb port.<br>
+                - The cam mount is useless (no really, its 20mm to wide).<br>
+                - No antenna mount without cam mount.<br>
+                It flies <b>AWESOME</b><br>
+                With the new cam mount the whole package would weigh 3-4g less (mounted the cam with hot glue)<br>
+                I also have a buzzer installed, so that's another 0.5g more.<br>
+            </p>
+        </div>
+        <br><br>
         <p class="textblock">
             <a href="https://github.com/sphrases/DronutsFrames/tree/master/Hawk">Download Files Here</a><br>
             <br>
@@ -83,12 +102,11 @@
 
         </p>
 
-
     </div>
-
-
 </div>
 
+
+<script src="./babyhawkIndex.js"></script>
 
 </body>
 </html>
